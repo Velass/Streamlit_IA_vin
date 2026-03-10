@@ -97,7 +97,6 @@ credentials.json
 # Fichiers de données
 *.dat
 *.out
-data/
 outputs/
 results/
 
