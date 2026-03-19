@@ -1,4 +1,4 @@
-# 🍷 ClassiVin – Analyse et Machine Learning sur un dataset de vins
+# 🍷 VinoScope – Analyse et Machine Learning sur un dataset de vins
 
 Application interactive développée avec **Python** et **Streamlit**, permettant d’explorer un dataset de vins, de préparer les données et d’entraîner un modèle de **Machine Learning** pour prédire la catégorie d’un vin.
 
@@ -37,7 +37,7 @@ L’utilisation de **Streamlit** permet de rendre ces étapes **interactives et 
 Le projet est organisé sous la forme d’une **application Streamlit multi-pages**.
 
 ```text
-ClassiVin
+VinoScope
 │
 ├── Streamlit
 │   ├── Accueil.py
