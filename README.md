@@ -95,9 +95,12 @@ Prédictions
 # Installation
 
 Prérequis
+
 Avant de lancer le projet, il est nécessaire d’avoir installé :
-•	Python 3.12
-•	pip
+
+* Python 3.12
+* pip
+  
 Le projet a été développé et testé avec Python 3.12.
 
 ## Cloner le projet
