@@ -1,8 +1,8 @@
-# Streamlit IA – Analyse et Machine Learning sur un dataset de vins
+# 🍷 ClassiVin – Analyse et Machine Learning sur un dataset de vins
 
-Application interactive développée avec **Python et Streamlit** permettant d’explorer un dataset de vins, de préparer les données et d’entraîner un modèle de Machine Learning.
+Application interactive développée avec **Python** et **Streamlit**, permettant d’explorer un dataset de vins, de préparer les données et d’entraîner un modèle de **Machine Learning** pour prédire la catégorie d’un vin.
 
-L’application présente de manière structurée les différentes étapes d’un projet de **data science**, depuis l’exploration des données jusqu’à la génération de prédictions.
+L’application présente de manière structurée les différentes étapes d’un projet de **data science**, depuis l’exploration des données jusqu’à la génération de prédictions, à travers une interface web simple et interactive.
 
 ---
 
@@ -23,7 +23,7 @@ L’utilisation de **Streamlit** permet de rendre ces étapes **interactives et 
 
 # Technologies utilisées
 
-* Python
+* Python 3.12
 * Streamlit
 * Pandas
 * NumPy
@@ -37,7 +37,7 @@ L’utilisation de **Streamlit** permet de rendre ces étapes **interactives et 
 Le projet est organisé sous la forme d’une **application Streamlit multi-pages**.
 
 ```text
-Streamlit_IA_vin
+ClassiVin
 │
 ├── Streamlit
 │   ├── Accueil.py
@@ -94,6 +94,12 @@ Prédictions
 
 # Installation
 
+Prérequis
+Avant de lancer le projet, il est nécessaire d’avoir installé :
+•	Python 3.12
+•	pip
+Le projet a été développé et testé avec Python 3.12.
+
 ## Cloner le projet
 
 ```bash
@@ -113,13 +119,13 @@ pip install -r requirements.txt
 
 # Lancer l'application
 
-Pour lancer l’application Streamlit, exécuter :
+Pour lancer l’application Streamlit, depuis la racine du projet, exécuter la commande suivante :
 
 ```bash
 streamlit run Streamlit/Accueil.py
 ```
 
-L’application sera accessible sur :
+L’application sera ensuite accessible à l’adresse suivante :
 
 ```
 http://localhost:8501
